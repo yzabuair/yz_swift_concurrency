@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB612F9226992D89000D0FD0 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB612F9126992D89000D0FD0 /* AppMain.swift */; };
+		EB8E9FA7269A83D30092665F /* CommandProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E9FA6269A83D30092665F /* CommandProcessor.swift */; };
+		EB8E9FA9269A83F60092665F /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E9FA8269A83F60092665F /* Command.swift */; };
+		EB8E9FAB269A84090092665F /* CommandParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E9FAA269A84090092665F /* CommandParser.swift */; };
+		EB8E9FAF269A9FA70092665F /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8E9FAE269A9FA70092665F /* Errors.swift */; };
+		EB8E9FB2269AA02F0092665F /* RedditEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8E9FB1269AA02F0092665F /* RedditEngine.framework */; };
+		EB8E9FB4269AA0340092665F /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8E9FB3269AA0340092665F /* Shared.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB7F359526ABBAC00019DE65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7F359126ABBAC00019DE65 /* GuiReddit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBBF4EEE26AA873D0046AC12;
+			remoteInfo = GuiReddit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB612F8526992C36000D0FD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB612F8726992C36000D0FD0 /* CommandLineReddit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandLineReddit; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB612F9126992D89000D0FD0 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		EB7F359126ABBAC00019DE65 /* GuiReddit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GuiReddit.xcodeproj; path = GuiReddit/GuiReddit.xcodeproj; sourceTree = "<group>"; };
+		EB8E9FA6269A83D30092665F /* CommandProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandProcessor.swift; sourceTree = "<group>"; };
+		EB8E9FA8269A83F60092665F /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		EB8E9FAA269A84090092665F /* CommandParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandParser.swift; sourceTree = "<group>"; };
+		EB8E9FAE269A9FA70092665F /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		EB8E9FB1269AA02F0092665F /* RedditEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RedditEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8E9FB3269AA0340092665F /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB612F8426992C36000D0FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8E9FB4269AA0340092665F /* Shared.framework in Frameworks */,
+				EB8E9FB2269AA02F0092665F /* RedditEngine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB612F7E26992C36000D0FD0 = {
+			isa = PBXGroup;
+			children = (
+				EB7F359126ABBAC00019DE65 /* GuiReddit.xcodeproj */,
+				EB612F8926992C36000D0FD0 /* CommandLineReddit */,
+				EB612F8826992C36000D0FD0 /* Products */,
+				EB8E9FB0269AA02F0092665F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB612F8826992C36000D0FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB612F8726992C36000D0FD0 /* CommandLineReddit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB612F8926992C36000D0FD0 /* CommandLineReddit */ = {
+			isa = PBXGroup;
+			children = (
+				EB612F9126992D89000D0FD0 /* AppMain.swift */,
+				EB8E9FA6269A83D30092665F /* CommandProcessor.swift */,
+				EB8E9FA8269A83F60092665F /* Command.swift */,
+				EB8E9FAA269A84090092665F /* CommandParser.swift */,
+				EB8E9FAE269A9FA70092665F /* Errors.swift */,
+			);
+			path = CommandLineReddit;
+			sourceTree = "<group>";
+		};
+		EB7F359226ABBAC00019DE65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F359626ABBAC00019DE65 /* GuiReddit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8E9FB0269AA02F0092665F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8E9FB3269AA0340092665F /* Shared.framework */,
+				EB8E9FB1269AA02F0092665F /* RedditEngine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB612F8626992C36000D0FD0 /* CommandLineReddit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB612F8E26992C36000D0FD0 /* Build configuration list for PBXNativeTarget "CommandLineReddit" */;
+			buildPhases = (
+				EB612F8326992C36000D0FD0 /* Sources */,
+				EB612F8426992C36000D0FD0 /* Frameworks */,
+				EB612F8526992C36000D0FD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandLineReddit;
+			productName = CommandLineReddit;
+			productReference = EB612F8726992C36000D0FD0 /* CommandLineReddit */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB612F7F26992C36000D0FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					EB612F8626992C36000D0FD0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = EB612F8226992C36000D0FD0 /* Build configuration list for PBXProject "CommandLineReddit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB612F7E26992C36000D0FD0;
+			productRefGroup = EB612F8826992C36000D0FD0 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EB7F359226ABBAC00019DE65 /* Products */;
+					ProjectRef = EB7F359126ABBAC00019DE65 /* GuiReddit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EB612F8626992C36000D0FD0 /* CommandLineReddit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EB7F359626ABBAC00019DE65 /* GuiReddit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = GuiReddit.app;
+			remoteRef = EB7F359526ABBAC00019DE65 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB612F8326992C36000D0FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8E9FA7269A83D30092665F /* CommandProcessor.swift in Sources */,
+				EB8E9FAF269A9FA70092665F /* Errors.swift in Sources */,
+				EB612F9226992D89000D0FD0 /* AppMain.swift in Sources */,
+				EB8E9FAB269A84090092665F /* CommandParser.swift in Sources */,
+				EB8E9FA9269A83F60092665F /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EB612F8C26992C36000D0FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB612F8D26992C36000D0FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB612F8F26992C36000D0FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EB612F9026992C36000D0FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB612F8226992C36000D0FD0 /* Build configuration list for PBXProject "CommandLineReddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB612F8C26992C36000D0FD0 /* Debug */,
+				EB612F8D26992C36000D0FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB612F8E26992C36000D0FD0 /* Build configuration list for PBXNativeTarget "CommandLineReddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB612F8F26992C36000D0FD0 /* Debug */,
+				EB612F9026992C36000D0FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB612F7F26992C36000D0FD0 /* Project object */;
+}
